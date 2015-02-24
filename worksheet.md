@@ -11,7 +11,7 @@ Our quiz is split into three sections of code
 
 So let's step through each of these sections and understand how they work.
 
-## Step 1: Introduction. Welcoming the player
+## Introduction. Welcoming the player
 In the introduction we first create a variable.
 
 *Variable: A variable is a container into which we can store data. Think of it as an empty box, we can put anything inside of it and then name it for later use.*
@@ -54,7 +54,7 @@ Concatenation can only join *strings* together and our score is an *integer* so 
 alert "Your score is " + score.to_s
 ```
 
-## Step 2: Asking Questions and Working With User Input
+## Asking Questions and Working With User Input
 A quiz needs questions, but how do we know if the player has answered them correctly?
 In programming we can compare an answer given by the player to what the correct answer is, and until this answer isHour_Of_Code_Ruby_Quiz/  or cancel
  Edit file   Preview changes      
@@ -129,7 +129,7 @@ alert "Your score is " + score.to_s
 answer = " "
 ```
 
-## Step 3: Game Over and Final Score
+## Game Over and Final Score
 For the last line of our quiz we create a final alert in the same manner as we previously have. This alert informs the player of their score and that the game is now over.
 
 ```Ruby
