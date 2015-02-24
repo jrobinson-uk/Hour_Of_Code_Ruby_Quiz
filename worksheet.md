@@ -56,7 +56,9 @@ alert "Your score is " + score.to_s
 
 ## Step 2: Asking Questions and Working With User Input
 A quiz needs questions, but how do we know if the player has answered them correctly?
-In programming we can compare an answer given by the player to what the correct answer is, and until this answer is correct the player cannot progress through the quiz. In Ruby we can instruct the code to repeat a sequence until a certain *condition* is met. In this case we ask a question to the user and give them three possible answers, labelled A, B or C
+In programming we can compare an answer given by the player to what the correct answer is, and until this answer isHour_Of_Code_Ruby_Quiz/  or cancel
+ Edit file   Preview changes      
+ correct the player cannot progress through the quiz. In Ruby we can instruct the code to repeat a sequence until a certain *condition* is met. In this case we ask a question to the user and give them three possible answers, labelled A, B or C
 In the example below, until the player chooses **A** the code will continue to loop.
 
 ```Ruby
@@ -137,7 +139,7 @@ Putting this all together it looks like this
 ![Animation of the quiz sequence](images/quiz.gif)
 
 Remember to save your work and when ready click on the **Run** button to start your quiz game.
-
+##What's next?
 **Well done! You have made a quiz game using Ruby**
 
 If you would like to learn more about Kids Ruby why not explore the great games and ideas already built in via Hackety-Hack, Ruby Warrior or Make Games with Gosu
